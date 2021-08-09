@@ -8,7 +8,7 @@
 ## otherwise should follow to original total_script_Eck.R
 ##code made ready for publication on GitHub on 01/05/21 By Eckart de Bie
 #(by removing some comments & minor analyses not reported in the paper)
-
+## on 9 August 2021 minor changes made to the code (only changed name of folder of data directory) by EdB
 
 library(readxl)
 library(data.table)
