@@ -21,7 +21,7 @@ set.seed(42) # reproducility, not sure if matchit uses random
 #First step match the cases and controls
 
 
-data_dir="~/My publications/Lancet Resp Med paper/data re-run code" # where all the data are stored
+data_dir="~/My publications/data re-run code" # where all the data are stored
 data.Eoin.v1.4March <- read.csv2(file.path(data_dir,"data_Eoin_v1_4March.csv"), stringsAsFactors=FALSE)
 autoimmune_profiling_2nd_batch_5_missing_samples_removed <-
   read_excel(file.path(data_dir,"autoimmune_profiling_2nd_batch__5_missing_samples_removed.xlsx")) %>%
@@ -870,7 +870,7 @@ save_pheatmap_pdf(ph2, "heatmap_PAH_vs_crtls_AAB_positivity.pdf")
 #===============================================================
 #visualise the distributions of the cases and controls
 list.files()
-data=readRDS(file.path(data_dir,"data_complete_for_LRM_aabs_figure4.rds"))
+data=readRDS(file.path(data_dir,"data_complete_for_paper_aabs_figure4.rds"))
 
 head(data)
 class(data)
